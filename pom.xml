@@ -5,6 +5,13 @@
     <artifactId>SingLingo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <build>
+    <resources>
+        <resource>
+            <directory>src/main/java</directory>
+        </resource>
+     </resources>
+</build>
     <dependencies>
         <dependency>
             <groupId>org.netbeans.external</groupId>
