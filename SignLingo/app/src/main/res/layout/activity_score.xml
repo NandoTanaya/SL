@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreActivity">
+
+    <TextView
+        android:id="@+id/Papanscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOUR SCORE IS"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="60dp"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="100"
+        android:layout_below="@id/Papanscore"
+        android:textSize="80dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="everyday you're getting better and better"
+        android:layout_below="@id/Score"
+        android:textSize="29dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/whoop"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Score"
+        android:background="@drawable/border_gambar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="Back to menu"
+        android:textColor="@color/sky"
+        />
+
+
+
+
+
+</RelativeLayout>

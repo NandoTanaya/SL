@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SignLingo" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorAccent">@color/grey</item>
+        <item name="colorTertiary">@color/sky</item>
+        <item name="colorButtonNormal">@color/leaf</item>
+        <item name="colorContainer">@color/orange</item>
+        <item name="colorOnPrimaryFixed">@color/white</item>
+    </style>
+
+
+</resources>
