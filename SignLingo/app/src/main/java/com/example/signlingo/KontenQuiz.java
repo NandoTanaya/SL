@@ -20,6 +20,7 @@ public class KontenQuiz extends AppCompatActivity implements View.OnClickListene
     private List<Question> questionList;
     private int currentQuestionIndex = 0;
     private int score = 0;
+    private int correctAnswers = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,7 +60,7 @@ public class KontenQuiz extends AppCompatActivity implements View.OnClickListene
     }
 
     @Override
-    public void onClick(View view) {
+   public void onClick(View view) {
         Question currentQuestion = questionList.get(currentQuestionIndex);
         String selectedChoice = "";
 
@@ -71,21 +72,42 @@ public class KontenQuiz extends AppCompatActivity implements View.OnClickListene
 
         if (selectedChoice.equals(currentQuestion.getCorrectAnswer())) {
             Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show();
-            score++;
-            currentQuestionIndex++;
-            displayQuestion();
+            correctAnswers++; // Tambah jumlah jawaban benar
         } else {
             Toast.makeText(this, "Wrong!", Toast.LENGTH_SHORT).show();
         }
+
+        currentQuestionIndex++;
+        if (currentQuestionIndex < questionList.size()) {
+            displayQuestion();
+        } else {
+            showScoreActivity();
+        }
     }
 
-    private void showScoreActivity() {
+   private void showScoreActivity() {
+        int finalScore = calculateScore(correctAnswers);
         Intent intent = new Intent(this, ScoreActivity.class);
-        intent.putExtra("score", score);
+        intent.putExtra("score", finalScore);
         startActivity(intent);
         finish();
     }
 
+    private int calculateScore(int correctAnswers) {
+        switch (correctAnswers) {
+            case 1:
+                return 25;
+            case 2:
+                return 50;
+            case 3:
+                return 75;
+            case 4:
+                return 100;
+            default:
+                return 0;
+        }
+    }
+    
     private class Question {
         private int imageResId;
         private String questionText;
