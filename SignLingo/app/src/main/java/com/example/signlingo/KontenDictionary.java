@@ -16,30 +16,32 @@ public class KontenDictionary extends AppCompatActivity {
     private TextView explanationText;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_konten_dictionary);
+   protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_konten_dictionary);
 
-        alphabetInput = findViewById(R.id.Alphabet);
-        handSignImage = findViewById(R.id.Handsign);
-        explanationText = findViewById(R.id.Explain);
+    alphabetInput = findViewById(R.id.Alphabet);
+    handSignImage = findViewById(R.id.Handsign);
+    explanationText = findViewById(R.id.Explain);
 
-        alphabetInput.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+    alphabetInput.addTextChangedListener(textWatcher);
+}
 
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {}
+private final TextWatcher textWatcher = new TextWatcher() {
+    @Override
+    public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
 
-            @Override
-            public void afterTextChanged(Editable s) {
-                if (s.length() > 0) {
-                    char input = Character.toLowerCase(s.charAt(0));
-                    updateDictionary(input);
-                }
-            }
-        });
+    @Override
+    public void onTextChanged(CharSequence s, int start, int before, int count) {}
+
+    @Override
+    public void afterTextChanged(Editable s) {
+        if (s.length() > 0) {
+            char input = Character.toLowerCase(s.charAt(0));
+            updateDictionary(input);
+        }
     }
+};
 
     private void updateDictionary(char input) {
         int imageResource;
