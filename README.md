@@ -19,11 +19,11 @@ And of course SignLingo itself is open source with a [public repository][dill]
 
 ## Installation
 
-SignLingo membutuhkan devices android.
-- Pastikan hardware anda adalah android.
-- Silahkan install SignLingo pada devices anda.
+SignLingo membutuhkan devices android
+- Pastikan hardware anda adalah android
+- Silahkan install SignLingo pada devices anda
 
 
-
+**Selamat Belajar!**
 
 **Thank You!**
