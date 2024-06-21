@@ -1,7 +1,7 @@
 # SignLingo
 
 
-SignLingo adalah apkikasi yang bisa membantu kamu belajar bahasa isyarat. 
+SignLingo adalah apkikasi berbasis android yang bertujuan mempermudah masyarakat Indonesia khususnya untuk mempelajari bahasa isyarat dengan mudah. 
 ## Features
 
 - Kamus bahasa isyarat beserta gambar
@@ -11,16 +11,16 @@ SignLingo adalah apkikasi yang bisa membantu kamu belajar bahasa isyarat.
 ## Tech
 
 SignLingo dibuat menggunakan aplikasi dan bahasa pemrograman seperti :
-- [Java] - Bahasa pemrograman java
-- [Android Studio] - Aplikasi coding untuk android
+- [Java] - Bahasa pemrograman yang digunakan untuk membangun aplikasi ini.
+- [Android Studio] - Lingkungan pengembangan terintegrasi (IDE) utama untuk pengembangan aplikasi Android.
   
 And of course SignLingo itself is open source with a [public repository][dill]
  on GitHub.
 
 ## Installation
 
-SignLingo membutuhkan devices android
-- Pastikan hardware anda adalah android
+SignLingo membutuhkan device android minimal android 5.0/lollipop atau yang lebih tinggi.
+- Pastikan device anda adalah android
 - Silahkan install SignLingo pada devices anda
 
 
