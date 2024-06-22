@@ -21,6 +21,7 @@ SignLingo dibuat menggunakan aplikasi dan bahasa pemrograman seperti :
 SignLingo membutuhkan device android minimal android 5.0/lollipop atau yang lebih tinggi.
 - Pastikan device anda adalah android
 - Silahkan install SignLingo pada devices anda
+- pastikan tidak root
 
 
 **Selamat Belajar!**
