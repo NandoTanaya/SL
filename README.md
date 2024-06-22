@@ -22,6 +22,7 @@ SignLingo membutuhkan device android minimal android 5.0/lollipop atau yang lebi
 - Pastikan device anda adalah android
 - Silahkan install SignLingo pada devices anda
 - pastikan tidak root
+- jika error uninstall ulang
 
 
 **Selamat Belajar!**
