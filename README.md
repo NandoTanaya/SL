@@ -1,5 +1,5 @@
 # SignLingo
-## Sugn with your hands, hear with your heart!
+## Speak with your hands, hear with your heart!
 
 
 SignLingo adalah aplikasi berbasis Android yang bertujuan mempermudah semua orang, terutama saudara kita yang tunarungu, dalam mempelajari bahasa isyarat dengan mudah.
