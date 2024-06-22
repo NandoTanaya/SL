@@ -155,7 +155,7 @@ private final TextWatcher textWatcher = new TextWatcher() {
 
             default:
                 imageResource = R.drawable.default_sign;
-                explanation = "Pagi-pagi pasang keramik, malam- malam adu MEKANIKKK";
+                explanation = "Please input single character of alphabet";
                 break;
         }
 
