@@ -1,7 +1,7 @@
 # SignLingo
 
 
-SignLingo adalah aplikasi berbasis android yang bertujuan mempermudah masyarakat Indonesia khususnya untuk mempelajari bahasa isyarat dengan mudah. 
+SignLingo adalah aplikasi berbasis Android yang bertujuan mempermudah semua orang, terutama saudara kita yang tunarungu, dalam mempelajari bahasa isyarat dengan mudah.
 ## Features
 
 - Kamus bahasa isyarat beserta gambar
