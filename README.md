@@ -8,7 +8,7 @@ SignLingo adalah aplikasi berbasis Android yang bertujuan mempermudah semua oran
 - Kamus bahasa isyarat beserta gambar
 - Pencarian isyarat tangan berdasarkan huruf
 - Quiz bahasa isyarat menebak huruf
-- gratis tidak berbayar
+- Gratis tidak berbayar!
 
 ## Tech
 
@@ -22,9 +22,8 @@ SignLingo dibuat menggunakan aplikasi dan bahasa pemrograman seperti :
 SignLingo membutuhkan device android minimal android 5.0/lollipop atau yang lebih tinggi.
 - Pastikan device anda adalah android
 - Silahkan install SignLingo pada devices anda
-- pastikan tidak root
-- jika error uninstall ulang
-- 
+- Pastikan tidak root
+- Jika terjadi error, silahkan install ulang
 
 
 **Selamat Belajar!**
